@@ -10,8 +10,10 @@ Web tool to install firmware on ESP devices via the browser using WebSerial.
 ## Local development
 
 - Clone this repository.
-- Run `script/develop`
-- Open http://localhost:5004/
+- Install dependencies: `npm install`
+- Run the development server: `npm run dev`
+- Build for production: `npm run build`
+- Preview production build: `npm run preview`
 
 ## Origin
 

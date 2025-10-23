@@ -1,0 +1,21 @@
+{
+  "name": "adafruit-webserial-esptool",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Web tool to install firmware on ESP devices via the browser using WebSerial.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["esp", "esptool", "webserial", "firmware", "flash"],
+  "author": "Melissa LeBlanc-Williams",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.1.12"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "esptool-js": "^0.5.7"
+  }
+}
